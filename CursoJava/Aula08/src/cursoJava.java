@@ -6,13 +6,13 @@ public class cursoJava {
         final int linha = 3;
         final int coluna = 5;
 
-        //int numero[][] = new int[linha][coluna];
-        //for (int i = 0; i < linha; i++) {
-        //    for (int j = 0; j < coluna; j++) {
-        //        
-        //        numero[i][j] = new SecureRandom().nextInt(100);
-        //    }
-        //}
+        int numero[][] = new int[linha][coluna];
+        for (int i = 0; i < linha; i++) {
+            for (int j = 0; j < coluna; j++) {
+                
+                numero[i][j] = new SecureRandom().nextInt(100);
+            }
+        }
 //
         //for (int i = 0; i < linha; i++) {
         //    for (int j = 0; j < coluna; j++) {
@@ -21,8 +21,13 @@ public class cursoJava {
         //    System.out.println("");
         //}
 
-        for (int string : args) {
-            
+        for (int num[] : numero) {
+            for (int v : num) {
+                System.out.printf("| %2d |", v);
+                System.out.println();
+                System.out.printf("------");
+                System.out.println();
+            }
         }
     }
 }
