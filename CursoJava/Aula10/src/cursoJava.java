@@ -1,3 +1,5 @@
+import src.Jogador;
+
 public class cursoJava {
     public static void main(String[] args) throws Exception {
         Jogador j1 = new Jogador(1);
