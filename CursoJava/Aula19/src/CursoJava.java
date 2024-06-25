@@ -5,7 +5,7 @@ public class CursoJava {
      */
     public static void main(String[] args) throws Exception {
         Formiga f[] = new Formiga[2];
-        f[0] = new Formiga();
+        f[0] = new Formiga(0, 0, 0);
         f[0].info();
         
     }

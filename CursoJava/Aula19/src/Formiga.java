@@ -1,7 +1,9 @@
-public class Formiga extends Animal{
-    private boolean vivo;
-    public Formiga() {
-        this.vivo = true;
+public class Formiga extends Animal{ 
+    
+
+    public Formiga(int massa, int vel, int forca) {
+        super(massa, vel, forca);
+        //TODO Auto-generated constructor stub
     }
 
     @Override
@@ -14,7 +16,7 @@ public class Formiga extends Animal{
     public void info() {
         // TODO Auto-generated method stub
         
-        System.out.printf("Vivo: %s%n", this.vivo?"Sim, esta vivo":"Nao, esta morto");
+        System.out.printf("Vivo: %s%n", isVivo()?"Sim, esta vivo":"Nao, esta morto");
     }
 
     @Override
