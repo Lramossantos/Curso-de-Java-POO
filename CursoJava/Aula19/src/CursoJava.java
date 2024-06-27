@@ -4,9 +4,18 @@ public class CursoJava {
      * @throws Exception
      */
     public static void main(String[] args) throws Exception {
-        Formiga f[] = new Formiga[2];
-        f[0] = new Formiga(0, 0, 0);
-        f[0].info();
+        Sapo sapo = new Sapo(2, 2, 2);
+        Aranha aranha = new Aranha(5, 5, 5);
+        Formiga formiga = new Formiga(10,10,10);
+        Vegetal vegetal = new Vegetal(10);
+
+        aranha.info();
+        aranha.atacar(formiga);
+        aranha.comer(formiga.getMassa());        
+        aranha.info();
+        //System.out.println(formiga.isVivo());
+        
+        
         
     }
 }

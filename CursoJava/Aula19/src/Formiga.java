@@ -1,9 +1,15 @@
-public class Formiga extends Animal{ 
-    
+public class Formiga extends Animal{
 
     public Formiga(int massa, int vel, int forca) {
         super(massa, vel, forca);
-        //TODO Auto-generated constructor stub
+        
+
+    }
+
+    @Override
+    public void atacar(Animal a) {
+        // TODO Auto-generated method stub
+        super.atacar(a);
     }
 
     @Override
@@ -15,15 +21,18 @@ public class Formiga extends Animal{
     @Override
     public void info() {
         // TODO Auto-generated method stub
-        
-        System.out.printf("Vivo: %s%n", isVivo()?"Sim, esta vivo":"Nao, esta morto");
+        super.info();
     }
 
     @Override
     public void mover() {
         // TODO Auto-generated method stub
         super.mover();
-    }
+    } 
+    
+    
+
+    
 
     
     

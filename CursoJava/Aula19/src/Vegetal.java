@@ -1,4 +1,4 @@
-public class Vegetal {
+public class Vegetal implements SerVivo{
     private boolean vivo;
     private int massa;
 
@@ -19,5 +19,27 @@ public class Vegetal {
         this.massa = massa;
     }
 
+    @Override
+    public void info() {
+        System.out.printf("Tipo..:%s%n", getClass().toGenericString());
+        System.out.printf("Vivo..:%s%n", this.isVivo()?"Sim":"Nao");
+        System.out.printf("Massa..:%s%n", this.getMassa());
+        System.out.printf("--------------------------------------------");
+        
+    }
+
+    @Override
+    public void mover() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'mover'");
+    }
+
+    @Override
+    public void comer(int massa) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'comer'");
+    }
+    
+     
     
 }
