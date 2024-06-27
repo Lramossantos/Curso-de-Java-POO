@@ -1,27 +1,21 @@
 public class CursoJava {
     public static void main(String[] args) throws Exception {                
-        int n1, n2;
-        n1=10; n2=5;
-        int res = 0;
-        String op = "+";        
-        switch (op) {
-            case "+":
-                res = n1 + n2;
-                break;            
-            case "-":
-                res = n1 - n2;
+        int nota = 2;
+        String res;
+        switch (nota) {
+            case 10: case 9: case 8: case 7: 
+                res="Aprovado";
                 break;
-            case "*":
-                res = n1 * n2;
+                case 6: case 5: case 4: 
+                res="Recuperacao";
                 break;
-            case "/":
-                res = n1 / n2;
+                case 3: case 2: case 1: case 0:
+                res="Reprovado";
                 break;
             default:
-                res = 0;
-                System.out.printf("%s%n", "Operacao Invalida!");
+                res = "Nota Invalida";
                 break;
         }
-        System.out.println("Operacao: "+ op +" : resultado: "+res+"");
+        System.out.println("A nota foi " +nota+ " e voce esta " +res);
     }
 }
