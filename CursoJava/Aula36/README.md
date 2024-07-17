@@ -1,18 +1,69 @@
-## Getting Started
+# Curso Completo de Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório contém todo o material e código-fonte que desenvolvi durante o curso completo de Java. O objetivo deste curso é fornecer uma base sólida em Java, abordando desde conceitos básicos até tópicos avançados.
 
-## Folder Structure
+## Índice
 
-The workspace contains two folders by default, where:
+- [Introdução](#introdução)
+- [Conteúdo do Curso](#conteúdo-do-curso)
+- [Pré-requisitos](#pré-requisitos)
+- [Instalação](#instalação)
+- [Como Usar](#como-usar)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
+- [Contato](#contato)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Introdução
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Este curso foi projetado para quem deseja aprender Java do zero ou aprimorar seus conhecimentos na linguagem. Cada módulo contém exemplos práticos e exercícios para consolidar o aprendizado.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Conteúdo do Curso
 
-## Dependency Management
+1. **Introdução ao Java**
+   - História do Java
+   - Configuração do ambiente de desenvolvimento
+   - Primeiro programa em Java
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+2. **Sintaxe Básica**
+   - Tipos de dados
+   - Operadores
+   - Estruturas de controle
+
+3. **Programação Orientada a Objetos**
+   - Classes e Objetos
+   - Herança
+   - Polimorfismo
+   - Encapsulamento
+
+4. **Coleções e Genéricos**
+   - Listas, Conjuntos e Mapas
+   - Uso de Genéricos
+
+5. **Tratamento de Exceções**
+   - Try, Catch e Finally
+   - Criação de Exceções Personalizadas
+
+6. **Trabalhando com Arquivos**
+   - Leitura e Escrita de Arquivos
+   - Serialização
+
+7. **Programação Multithread**
+   - Threads e Runnable
+   - Sincronização
+
+8. **Java Avançado**
+   - Streams e Lambda Expressions
+   - APIs de Data e Hora
+
+## Pré-requisitos
+
+- Conhecimento básico de programação (em qualquer linguagem)
+- JDK (Java Development Kit) instalado
+- IDE de sua preferência (IntelliJ IDEA, Eclipse, VSCode, etc.)
+
+## Instalação
+
+1. Clone este repositório:
+
+   ```sh
+   git clone https://github.com/Lramossantos/Projetos_Java
