@@ -4,23 +4,18 @@ import java.util.ArrayList;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        ArrayList<String>Carro = new ArrayList<>();
-        Carro.add("Mustang");
-        Carro.add("Ferrari");
-        Carro.add("Camaro");
-        
-        int nota1, nota2, res;
-        nota1=60;
-        nota2=20;
-        if (nota1 > 50) {
-            throw new IllegalArgumentException("Valor da nota invalido");    
-        }if(nota2 > 50){
-            throw new IllegalArgumentException("Valor da nota invalido");
+        ArrayList<Integer> nota = new ArrayList<>();
+        nota.add(50);
+        nota.add(70);
+        int res = 0;
+        if (nota.get(0)>50) {
+            throw new IllegalArgumentException("Este é um erro forçado, valor invalido!");
+        }if (nota.get(1)>50) {
+            throw new IllegalArgumentException("Este é um erro forçado, valor invalido!");    
         }
+        res = nota.get(0) + nota.get(1);
+        System.out.println("Resultado: "+res);
+
         
-        res = nota1+nota2;
-        System.out.println("Resultado: "+ res);
-
-
     }
 }
